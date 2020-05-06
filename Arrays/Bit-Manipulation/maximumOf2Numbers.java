@@ -1,0 +1,1 @@
+//Find maximum of 2 numbers without using if else or other comparison operations

@@ -1,0 +1,1 @@
+//Add 1 to a given number using bit operations
