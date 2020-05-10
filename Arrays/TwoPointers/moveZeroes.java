@@ -3,8 +3,8 @@ class Solution {
     public void moveZeroes(int[] nums) {
         int first_ptr = 0;
         int second_ptr = 0;
-        int n = nums.length;
-        while (first_ptr <= second_ptr && second_ptr < n) {
+        int size = nums.length;
+        while (first_ptr <= second_ptr && second_ptr < size) {
             if (nums[first_ptr] != 0) {
                 first_ptr++;
                 second_ptr++;
