@@ -1,5 +1,5 @@
 //Input: [2, 4, 4, 4, 6, 8, 8]
-//Output: 4      //([2,4,6,8])
+//Output: 4      //(output array[2,4,6,8])
 class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0) {
