@@ -1,4 +1,6 @@
 /*
+problem: container With Most Water
+
 Input consists of n non negative integers a1, a2, ..., an,
 where each represents the height of a line. n vertical lines are drawn at 
 points 1,2, … n on the x axis as shown in the diagram. Find two lines,
@@ -16,15 +18,14 @@ public class containerWithMostWater {
         int max_area = 0;
         int start_ptr = 0;
         int end_ptr = height.length - 1;
-        while(start_ptr < end_ptr){
-            max_area = Math.max(max_area,Math.min(height[start_ptr],height[end_ptr]) * (end_ptr-start_ptr));
-            if(height[start_ptr] < height[end_ptr]){
+        while (start_ptr < end_ptr) {
+            max_area = Math.max(max_area, Math.min(height[start_ptr], height[end_ptr]) * (end_ptr - start_ptr));
+            if (height[start_ptr] < height[end_ptr]) {
                 start_ptr++;
-            }
-            else{
+            } else {
                 end_ptr--;
             }
         }
         return max_area;
-    }   
+    }
 }
