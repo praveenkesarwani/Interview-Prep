@@ -27,6 +27,6 @@ class Tribonacci {
 }
 
 /*
-Time Complexicity: O(3^N)
-Space Complexicity: O(N)
+Time Complexity: O(3^N)
+Space Complexity: O(N)
 */
