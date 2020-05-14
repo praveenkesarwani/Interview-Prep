@@ -18,3 +18,7 @@ public class TowerOfHanoi {
         towerOfHanoi(n, 'A', 'B', 'C');
     }
 }
+/*
+Time Complexity: O(2^N)
+Space Complexity: O(N)
+*/
