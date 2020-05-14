@@ -1,8 +1,8 @@
 /*
-*You are given two numbers a and b. 
-*You have to find the remainder when a is divided by b using recursion. 
-*If remainder is not possible then return -1.
-*Note: You cannot use the Modulo (%) operator.
+You are given two numbers a and b. 
+You have to find the remainder when a is divided by b using recursion. 
+If remainder is not possible then return -1.
+Note: You cannot use the Modulo (%) operator.
 */
 import java.util.*;
 
