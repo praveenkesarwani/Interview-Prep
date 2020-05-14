@@ -1,3 +1,4 @@
+
 /*
 You are given two numbers a and b. 
 You have to find the remainder when a is divided by b using recursion. 
@@ -25,3 +26,8 @@ public class ModuloUsingRecursion {
         System.out.println(result);
     }
 }
+/*
+ * Time Complexity: O(Q), where Q is the quotient when a is divided by b, since
+ * we’ll be recursing that many times. 
+ * Space Complexity: O(Q), since the recursion call stack will need to hold these many instances of the method
+ */
