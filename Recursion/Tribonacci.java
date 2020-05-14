@@ -25,3 +25,8 @@ class Tribonacci {
         System.out.println(result);
     }
 }
+
+/*
+Time Complexicity: O(3^N)
+Space Complexicity: O(N)
+*/
