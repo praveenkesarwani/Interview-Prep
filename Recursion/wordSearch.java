@@ -50,19 +50,4 @@ public class WordSearch {
         return found;
     }
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int row = scanner.nextInt();
-        int col = scanner.nextInt();
-        char board[][] = new char[row][col];
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < col; j++) {
-                board[i][j] = scanner.next().charAt(0);
-            }
-        }
-        String word = scanner.next();
-        scanner.close();
-        boolean result = new WordSearch().exist(board, word);
-        System.out.println(result);
-    }
 }
