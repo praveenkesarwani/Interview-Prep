@@ -5,11 +5,9 @@ sorting which will sort the whole array. This should be achieved with O(1)space.
 Input:
 7
 2 4 3 0 -1 8 15
-
 Output:
 5
 */
-
 class ShortestUnsortedContinuousSubarray {
     // complete the below function implementation
     public int findUnsortedSubarrayLength(int[] nums) {
