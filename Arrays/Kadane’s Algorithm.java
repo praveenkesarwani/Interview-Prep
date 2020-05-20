@@ -1,4 +1,5 @@
 //53. Maximum Subarray
+//Kadane’s Algorithm:
 class Solution {
     public int maxSubArray(int[] nums) {
         int size = nums.length; 
