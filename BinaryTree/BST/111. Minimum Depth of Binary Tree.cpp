@@ -18,7 +18,7 @@ public:
         int leftDepth = minDepth(root->left);
         int rightDepth = minDepth(root->right);
         if(leftDepth == 0 || rightDepth == 0){
-            return 1+ max(leftDepth,rightDepth);
+            return 1 + max(leftDepth,rightDepth);
         }
         else{
             return 1 + min(leftDepth,rightDepth);
