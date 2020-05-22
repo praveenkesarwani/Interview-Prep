@@ -9,6 +9,7 @@ public class PalindromePartitioning {
         helper(res,new ArrayList<>(), s, 0);
         return res;
     }
+
     private void helper(ArrayList<ArrayList<String>> res,ArrayList<String>curr,
             String s,int low){
         if(low == s.length()){
@@ -24,6 +25,7 @@ public class PalindromePartitioning {
             }
         }
     }
+    
     private boolean isPalndrome(String s,int low ,int high){
         if(low >= high){
             return true;
