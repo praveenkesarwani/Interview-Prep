@@ -18,29 +18,25 @@ public:
     queue<TreeNode *> pendingNodes;
     pendingNodes.push(root);
     pendingNodes.push(NULL);
-      
+
     while (!pendingNodes.empty()) {
       TreeNode *curr = pendingNodes.front();
       pendingNodes.pop();
-      if (curr == NULL) 
-      {
+      if (curr == NULL) {
         res.push_back(current_res);
         current_res.clear();
         if (!pendingNodes.empty())
           pendingNodes.push(NULL);
-      } 
-      else if (curr) 
-      {
+      } else if (curr) {
         current_res.push_back(curr->val);
         if (curr->left)
           pendingNodes.push(curr->left);
         if (curr->right)
           pendingNodes.push(curr->right);
-      }
-      else
+      } else
         break;
     }
-      
+
     return res;
   }
   vector<vector<int>> levelOrder(TreeNode *root) {
