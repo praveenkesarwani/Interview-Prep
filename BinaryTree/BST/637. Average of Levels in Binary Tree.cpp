@@ -36,9 +36,6 @@ public:
                 if(curr->right)
                     q.push(curr->right);
             }
-            else{
-                break;
-            }
         }
         return ans;
     }
