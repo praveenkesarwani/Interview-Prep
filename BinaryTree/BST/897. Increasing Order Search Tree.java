@@ -16,19 +16,19 @@
 class Solution {
     public TreeNode increasingBST(TreeNode root) {
         TreeNode dummy = new TreeNode(0);
-        TreeNode prev = dummy;
-        TreeNode curr = root;
+        TreeNode previous = dummy;
+        TreeNode current = root;
         Stack<TreeNode> stack = new Stack<>();
-        while(!stack.isEmpty() || curr != null){
-            while(curr != null){
-                stack.push(curr);
-                curr = curr.left;
+        while(!stack.isEmpty() || current != null){
+            while(current != null){
+                stack.push(current);
+                current = current.left;
             }
-            curr = stack.pop();
-            curr.left = null;
-            prev.right = curr;
-            prev = curr;
-            curr = curr.right;
+            current = stack.pop();
+            current.left = null;
+            previous.right = current;
+            previous = current;
+            current = current.right;
         }
         return dummy.right;
     }
