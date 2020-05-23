@@ -17,13 +17,6 @@ class Tribonacci {
         }
         return tribonacci(n - 1) + tribonacci(n - 2) + tribonacci(n - 3);
     }
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        int result = new Tribonacci().tribonacci(n);
-        System.out.println(result);
-    }
 }
 
 /*
