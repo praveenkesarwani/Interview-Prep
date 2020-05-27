@@ -1,6 +1,6 @@
 <h2>Tips to Consider</h2>
-<pre>
 <code>
+<pre>
 If input array is sorted then
     - Binary search
     - Two pointers
@@ -36,4 +36,4 @@ Else
     - Map/Set for O(1) time & O(n) space
     - Sort input for O(nlogn) time and O(1) space
 </code>
-<pre>
+</pre>
