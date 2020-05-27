@@ -2,8 +2,8 @@
 <pre>
 <code>
 If input array is sorted then
-    - Binary search
-    - Two pointers
+- Binary search
+- Two pointers
 
 If asked for all permutations/subsets then
     - Backtracking
