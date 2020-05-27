@@ -1,6 +1,6 @@
 <h2>Tips to Consider</h2>
-<code>
 <pre>
+<code>
 If input array is sorted then
     - Binary search
     - Two pointers
