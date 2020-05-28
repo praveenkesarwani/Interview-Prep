@@ -52,6 +52,18 @@
 <p>
 In a Min Heap, the <b> value of the Parent is always lesser than or equal to the value of its child nodes</b>
 <ul>
-<li>Similar to Max Heap, but has a min_heapify which will work bottom up and swap parent and child nodes to satisfy the above property. </li>
+<li>Similar to Max Heap, but has a <b>min_heapify</b> which will work bottom up and swap parent and child nodes to satisfy the above property. </li>
 </ul>  
+</p>
+<h3>Heaps and Priority Queues</h3>
+<p><b>Heaps are naturally suited to implement Priority Queues </b> since Heap is a data structure where the nodes of the tree are priority based order.<br>
+Example - Max Heap has largest element at root and Min Heap has smallest element at root.<br>
+It stores data in a way that the first element with highest priority returned quickly.<br>
+Heaps are preferred over other data structure to implement Priority Queue since they provide better performance.<br>
+A binary heap can provide
+<ul>
+    <li>O(1) time getHighestPriority()</li>
+    <li>O(log n) time insert()</li>
+    <li>O(log n) time deleteHighestPriority()</li>
+</ul>
 </p>
