@@ -60,8 +60,8 @@ In a Min Heap, the <b> value of the Parent is always lesser than or equal to the
 Example - Max Heap has largest element at root and Min Heap has smallest element at root.<br>
 It stores data in a way that the first element with highest priority returned quickly.<br>
 Heaps are preferred over other data structure to implement Priority Queue since they provide better performance.<br>
-<ul>
 A binary heap can provide
+<ul>
     <li>O(1) time getHighestPriority()</li>
     <li>O(log n) time insert()</li>
     <li>O(log n) time deleteHighestPriority()</li>
