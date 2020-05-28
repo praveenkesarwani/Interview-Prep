@@ -1,4 +1,5 @@
 <h2>Tips to Consider</h2>
+
 If input array is sorted then
 - Binary search
 - Two pointers
