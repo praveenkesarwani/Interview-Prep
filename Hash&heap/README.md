@@ -1,4 +1,4 @@
-<h2>Prefix Sum</h2>
+<h2>1-Prefix Sum</h2>
 <h4>What is Prefix Sum?</h4>
 <p>
 <ul>
@@ -24,10 +24,10 @@
         </li>
     </ul>
 </p>
-<h2>Heap Data Structure</h2>
+<h2>2-Heap Data Structure</h2>
 <ul>
     <li>Heaps are the data structure that can <b>access the maximum or minimum element very quickly.</b> </li>
     <li>They are <b>implemented using arrays</b> (can also use linked list). the <b>Array Map</b> of Heap would like this </li>
-    <img src = "heap.png">
+    <img src = "heap.png" height="300px">
 </ul>
 </p>
