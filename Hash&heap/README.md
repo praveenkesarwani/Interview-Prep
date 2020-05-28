@@ -27,7 +27,16 @@
 <h2>2-Heap Data Structure</h2>
 <ul>
     <li>Heaps are the data structure that can <b>access the maximum or minimum element very quickly.</b> </li>
-    <li>They are <b>implemented using arrays</b> (can also use linked list). the <b>Array Map</b> of Heap would like this </li>
-</ul>
+    <li>They are <b>implemented using arrays</b> (can also use linked list). the <b>Array Map</b> of Heap would like this </li><br>
     <img src = "heap.png" height="250px">
-</p>
+    <li>You will notice that the heap can be visualized as a <b>nearly complete binary tree</b></li>
+    <li>Array map
+        <ul>
+            <li>Root of the tree is the first element in the array corresponding to i = 1</li>
+            <li>The parent of node i = i / 2 --> Index of parent node</li>
+            <li>Left child of node i = 2 * i --> Index of left child</li>
+            <li>Right child of node i = 2 * i  + 1--> Index of right child</li>
+        </ul>
+    </li>
+</ul>
+<p>Note: We are using a Binary Heap here. There are other types as well.</p>
