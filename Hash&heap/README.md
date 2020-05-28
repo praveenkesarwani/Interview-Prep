@@ -29,5 +29,5 @@
     <li>Heaps are the data structure that can <b>access the maximum or minimum element very quickly.</b> </li>
     <li>They are <b>implemented using arrays</b> (can also use linked list). the <b>Array Map</b> of Heap would like this </li>
 </ul>
-    <img src = "heap.png" height="300px">
+    <img src = "heap.png" height="250px">
 </p>
