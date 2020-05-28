@@ -10,7 +10,7 @@ import java.util.*;
 
 class SubarraySumZero {
 	public static String subarraySumZero(Vector<Integer> arr) {
-		// prefix sum approach
+		// Prefix Sum approach
 		int sum = 0;
 		Set<Integer> hash_set = new HashSet<>();
 		for (int i = 0; i < arr.size(); i++) {
