@@ -40,3 +40,18 @@
     </li>
 </ul>
 <p>Note: <i>We are using a Binary Heap here. There are other types as well.</i></p>
+<h3>Max Heap and Min Heap</h3>
+<p>In a Max Heap, the <b>value of the Parent is always greater than or equal to the value of it's child nodes</b></p>
+<p>
+    <ul>
+        <li>To build a Max Heap, we call the <b>max_heapify</b> function which starts bottom up. It will compare and swap parent with it's child nodes to satisfy the above property. Doing this repeatedly till the root creates a Max Heap.</li>
+        <li><b>Removal of node </b>is remval of the root node. Upon doing this we move the last heap node to root. compare this node to its children swap with the larger child till Max Heap property is satisfied.</li>
+        <li><b>Insertion of node</b> is inserting the node at the end of the heap and swapping with the parent till it satisfies Max Heap property.</li>
+    </ul>
+</p>
+<p>
+In a Min Heap, the <b> value of the Parent is always lesser than or equal to the value of its child nodes</b>
+<ul>
+<li>Similar to Max Heap, but has a min_heapify which will work bottom up and swap parent and child nodes to satisfy the above property. </li>
+</ul>  
+</p>
