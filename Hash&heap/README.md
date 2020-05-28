@@ -6,7 +6,7 @@
     <li>This sum calculation is done in O(n) time by doing (current_sum = previous_sum + arr[i]).</li>
 </ul>
 </p>
-<h2>How is Prefix Sum useful in solving the above problem(subarraySumZero)</h2>
+<h3>How is Prefix Sum useful in solving the above problem(subarraySumZero)</h3>
 <p>
     <ul>
         <li>If the Prefix Sum for any index in the array has been seen before or if the Prefix Sum is zero, we have a zero sum sub-array.</li>
@@ -27,10 +27,10 @@
 <h2>2-Heap Data Structure</h2>
 <ul>
     <li>Heaps are the data structure that can <b>access the maximum or minimum element very quickly.</b> </li>
-    <li>They are <b>implemented using arrays</b> (can also use linked list). the <b>Array Map</b> of Heap would like this </li><br>
+    <li>They are <b>implemented using arrays</b> (can also use linked list). the <b>Array Map</b> of Heap would like this </li>
     <img src = "heap.png" height="250px">
     <li>You will notice that the heap can be visualized as a <b>nearly complete binary tree</b></li>
-    <li>Array map
+    <li>Array Map
         <ul>
             <li>Root of the tree is the first element in the array corresponding to i = 1</li>
             <li>The parent of node i = i / 2 --> Index of parent node</li>
@@ -39,4 +39,4 @@
         </ul>
     </li>
 </ul>
-<p>Note: We are using a Binary Heap here. There are other types as well.</p>
+<p>Note: <i>We are using a Binary Heap here. There are other types as well.</i></p>
