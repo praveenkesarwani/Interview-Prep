@@ -4,9 +4,6 @@ The cost of connecting any two ropes is equal to the sum of their lengths.
 Your goal is to connect all N ropes together to form a single rope and minimize the cost in the process.
 */
 
-#include <bits/stdc++.h>
-using namespace std;
-
 long long connectRopes(vector<long long > arr)
 {
     long long cost = 0;
@@ -32,15 +29,8 @@ long long connectRopes(vector<long long > arr)
     }
     return cost;
 }
-
-int main()
-{
-    int n;
-    cin>>n;
-    vector<long long > arr(n);
-    for(int i=0;i<n;i++)
-        cin>>arr[i];
-    long long result = connectRopes(arr);
-    cout<<result<<"\n";
-    return 0;
-}
+/**
+*Time complexity : O(n log n) because heapify (called while extraction and insertion) 
+    takes O(log n) time and it will be called proportional to the number of elements n.
+*Space complexity is O(n) for the heap.
+*/
