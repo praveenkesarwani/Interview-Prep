@@ -14,6 +14,7 @@ class Solution {
         }
         return false;
     }
+    
     String sort(String s1){
         char[] ch = s1.toCharArray();
         Arrays.sort(ch);
