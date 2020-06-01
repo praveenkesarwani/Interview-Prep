@@ -1,3 +1,26 @@
+<h1>Data Structures and Algorithms</h1>
+<p>This repository contains data structures and algorithms concepts and questions useful for interviews</p>
+<h1><i class="fas fa-folder"></i> Structure of the repository</h1>
+<h2>Table of contents</h2>
+<ol>
+    <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Arrays">Arrays</a></li>
+    <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/LinkedList">LinkedList</a></li>
+    <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/BinaryTree/BST">BinaryTree/BST</a></li>
+    <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Hash">Hashmap</a></li>
+    <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Heap">Heap</a></li>
+    <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Stack">Stack</a></li>
+    <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Queue">Queue</a></li>
+    <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Recursion">Recursion</a></li>
+</ol>
+
+
+
+
+
+
+
+
+
 <h2>Tips to Consider</h2>
 
 If input array is sorted then
