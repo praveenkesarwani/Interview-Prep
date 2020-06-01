@@ -1,7 +1,7 @@
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <h1>Data Structures and Algorithms</h1>
 <p>This repository contains data structures and algorithms concepts and questions useful for interviews</p>
-<h1><i class="fas fa-folder"></i> Structure of the repository</h1>
-<h2>Table of contents</h2>
+<h2><i class="fas fa-folder"></i>Table of contents</h2>
 <ol>
     <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Arrays">Arrays</a></li>
     <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/LinkedList">LinkedList</a></li>
