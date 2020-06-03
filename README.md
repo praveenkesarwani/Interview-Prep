@@ -10,6 +10,7 @@
     <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Stack">Stack</a></li>
     <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Queue">Queue</a></li>
     <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Recursion">Recursion</a></li>
+    <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Graph">Graph</a></li>
 </ol>
 
 
