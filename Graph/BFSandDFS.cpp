@@ -1,5 +1,6 @@
 //BFS and DFS for undirected and disconnected graph
 //nodes are from 0 to n-1
+//used Adjacency Matrix (Not a good approach)
 #include<bits/stdc++.h>
 using namespace std;
 vector<vector<int>> createAdjacencyMatrix(int n){    
