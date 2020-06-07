@@ -13,7 +13,7 @@ class WordLadder {
             return 0;
         return shortestChainLength(beginWord, endWord, wordSet);
     }
-
+    //BFS Traversal
     public int shortestChainLength(String beginWord, String endWord, HashSet<String> wordSet) {
         int level = 0; // answer
         Queue<String> queue = new LinkedList<>();
