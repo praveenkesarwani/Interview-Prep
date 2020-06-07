@@ -33,6 +33,7 @@ public class RouteBetweenNodes {
         }
     }
 
+    //DFS Traversal
     void isPath(int source, int destination, ArrayList<ArrayList<Integer>> graph){
         this.visited[source] = 1;
         for(int i = 0; i < graph.get(source).size();i++){
@@ -47,7 +48,7 @@ public class RouteBetweenNodes {
         }
         return;
     }
-
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int t = scanner.nextInt();
