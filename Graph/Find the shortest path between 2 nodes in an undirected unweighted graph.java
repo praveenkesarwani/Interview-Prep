@@ -21,6 +21,7 @@ class ShortestPath{
         }
 
         int []level = new int[n + 1]; //to store the level of evrey vertex
+        //BFS Traversal
         Queue<Integer> queue = new LinkedList<>();
         queue.offer(source);
         level[source] = 1;
