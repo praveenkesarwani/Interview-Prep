@@ -30,6 +30,7 @@ class DetectCycle {
         }
         return "No";
     }
+    
     //BFS Traversal
     public static boolean detectCycle_BFS(int n, ArrayList<ArrayList<Integer>> adj, int currNode, int[] visited){
         Queue<Integer>q = new LinkedList<>();
