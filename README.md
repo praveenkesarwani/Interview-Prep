@@ -5,7 +5,7 @@
 <ol>
     <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Arrays">Arrays</a></li>
     <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/LinkedList">LinkedList</a></li>
-    <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/BinaryTree/BST">BinaryTree/BST</a></li>
+    <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Trees">Trees</a></li>
     <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Hash&heap">Hashmap&Heap</a></li>
     <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Stack">Stack</a></li>
     <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Queue">Queue</a></li>
