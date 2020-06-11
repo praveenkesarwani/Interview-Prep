@@ -30,28 +30,29 @@
         <li>Weighted and Unweighted</li>
     </ul>
     <h2>Graph Representation</h2>
-    
-    <b>3--4--2--1
-       '-----'
-    <b>
-    <h3>Edge List</h3>
-    <p>Shows list of edges in the graph as follows - int[][]graph = {{1,2},{2,3},{2,4},{3,4}}</p><br>
-    Disadvantage is that this may not show all the nodes in the graph
-    <h3>Adjacency List</h3>
-    <p>Each node has entries with the entries representing the nodes it is connected to<br>
-    int [][]graph = {{2},{1,3,4},{2,4},{2,3}}</p>
-    <h3>Adjacency Matrix</h3>
-    <p>Each row and column combination represents Vertices between 2 Nodes. 
-        1 indicates connection, 0 indicates no connection 
-    int graph[][] = {{0,1,0,0},
-                     {1,0,1,1}       
-                     {0,1,0,1}
-                     {0,1,1,0}}
+    <p>
+        <b>3--4--2--1
+           '-----'
+        <b>
+        <h3>Edge List</h3>
+        <p>Shows list of edges in the graph as follows - int[][]graph = {{1,2},{2,3},{2,4},{3,4}}</p><br>
+        Disadvantage is that this may not show all the nodes in the graph
+        <h3>Adjacency List</h3>
+        <p>Each node has entries with the entries representing the nodes it is connected to<br>
+        int [][]graph = {{2},{1,3,4},{2,4},{2,3}}</p>
+        <h3>Adjacency Matrix</h3>
+        <p>Each row and column combination represents Vertices between 2 Nodes. 
+            1 indicates connection, 0 indicates no connection 
+        int graph[][] = {{0,1,0,0},
+                         {1,0,1,1}       
+                         {0,1,0,1}
+                         {0,1,1,0}}
+        </p>
+        <i><b>Time and Space complexity:O(N+V),for Adjacency list traversal</b></i>
+        <i><b>Time and Space complexity:O(N^2),for Adjacency Matrxi traversal</b></i>
+        <h2>Graph Traversal</h2>
+        <p>1:BFS<br>2:DFS</p>
     </p>
-    <i><b>Time and Space complexity:O(N+V),for Adjacency list traversal</b></i>
-    <i><b>Time and Space complexity:O(N^2),for Adjacency Matrxi traversal</b></i>
-    <h2>Graph Traversal</h2>
-    <p>1:BFS<br>2:DFS</p>
 </body>
 
 </html>
