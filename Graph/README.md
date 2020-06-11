@@ -6,7 +6,7 @@
 <body>
     <h1>Introduction to Graph</h1>
     <ul>
-        <li>A Graph is a collection of <b>nodes or vertices</b> with edges betwwen some of the vertices.</li>
+        <li>A Graph is a collection of <b>nodes or vertices</b> with edges between some of the vertices.</li>
         <li>All Trees are graphs.In a tree:</li>
         <ul>
             <li>All nodes must be connected whereas a graph can have unconnected nodes as well</li>
@@ -44,8 +44,8 @@
                          {0,1,0,1}
                          {0,1,1,0}}
         </p>
-        <i><b>Time and Space complexity:O(N+V),for Adjacency list traversal</b></i>
-        <i><b>Time and Space complexity:O(N^2),for Adjacency Matrxi traversal</b></i>
+        <i><b>Time and Space complexity:</b>O(N+V),for Adjacency list traversal</br></i>
+        <i><b>Time and Space complexity:</b>O(N^2),for Adjacency Matrxi traversal</i>
         <h2>Graph Traversal</h2>
         <p>1:BFS<br>2:DFS</p>
     </p>
