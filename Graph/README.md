@@ -63,8 +63,8 @@
         </ul>
         <h2>Bipartite Graph</h2>
         <p>A bipartite graph is a graph whose <b>vertices can be divided into two disjoint sets</b> U and V such that <b>no two vertices within the same set have an edge</b> between them.
-        <img src = "bipartitegraph.jpg">
         </p>
+        <img src = "bipartitegraph.jpg" height = "100px" width = "100px">
    </p>
 </body>
 
