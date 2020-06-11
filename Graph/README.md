@@ -47,9 +47,21 @@
         <i><b>Time and Space complexity:</b>O(N+V),for Adjacency list traversal</br></i>
         <i><b>Time and Space complexity:</b>O(N^2),for Adjacency Matrxi traversal</i>
         <h2>Graph Traversal</h2>
-        <p><b>1:BFS:</b>BFS will find the shortest path between the 2 points.DFS doesn't necessarily find the shortest path<br>
-        <b>2:DFS:</b>DFS is easier to implement - recursively. DFS on a (balanced) binary tree would take less memory than BFS</p>
-    </p>
+        <ul>
+            <li><b>BFS:</b>
+            <ul>
+                <li>BFS will find the shortest path between the 2 points.</li>
+                <li>DFS doesn't necessarily find the shortest path</li>
+            </ul>
+            </li>
+            <li><b>DFS</b>
+            <ul>
+                <li>DFS is easier to implement - recursively.</li>
+                <li>DFS on a (balanced) binary tree would take less memory than BFS</li>
+            </ul>
+            </li>
+        </ul>
+   </p>
 </body>
 
 </html>
