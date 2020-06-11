@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Graph</title>
 </head>
 
 <body>
@@ -31,12 +30,9 @@
     </ul>
     <h2>Graph Representation</h2>
     <p>
-        <b>3--4--2--1
-           '-----'
-        <b>
         <h3>Edge List</h3>
-        <p>Shows list of edges in the graph as follows - int[][]graph = {{1,2},{2,3},{2,4},{3,4}}</p><br>
-        Disadvantage is that this may not show all the nodes in the graph
+        <p>Shows list of edges in the graph as follows - int[][]graph = {{1,2},{2,3},{2,4},{3,4}}<br>
+        Disadvantage is that this may not show all the nodes in the graph</p>
         <h3>Adjacency List</h3>
         <p>Each node has entries with the entries representing the nodes it is connected to<br>
         int [][]graph = {{2},{1,3,4},{2,4},{2,3}}</p>
