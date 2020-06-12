@@ -2,8 +2,8 @@
 <div>
 <h1>Data Structures and Algorithms</h1>
 <img src = "folder.png" width = "50px" height = "50px">
-</div>
 <p>This repository contains data structures and algorithms concepts and questions useful for interviews</p>
+</div>
 <h2>Table of contents</h2>
 <ol>
     <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Arrays">Arrays</a></li>
