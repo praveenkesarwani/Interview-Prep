@@ -1,19 +1,3 @@
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-<style>
-.header img {
-  float: left;
-  width: 100px;
-  height: 100px;
-  background: #555;
-}
-.header h1 {
-  position: relative;
-  top: 18px;
-  left: 10px;
-}
-</style>
-<div class ="header">
-<img src = "folder.png" width = "50px" height = "50px">
 <h1>Data Structures and Algorithms</h1>
 <p>This repository contains data structures and algorithms concepts and questions useful for interviews</p>
 </div>
