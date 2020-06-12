@@ -1,3 +1,4 @@
+<img src = "folder.png">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <h1>Data Structures and Algorithms</h1>
 <p>This repository contains data structures and algorithms concepts and questions useful for interviews</p>
