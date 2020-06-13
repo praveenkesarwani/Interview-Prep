@@ -11,6 +11,7 @@
     <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Queue">Queue</a></li>
     <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Recursion">Recursion</a></li>
     <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Graph">Graph</a></li>
+    <li><a href = "https://github.com/praveenkesarwani/Interview-Prep/tree/master/Advanced%20Data%20Structures%20and%20Algorithms">Advanced DS/Algo</a></li>
 </ol>
 
 
