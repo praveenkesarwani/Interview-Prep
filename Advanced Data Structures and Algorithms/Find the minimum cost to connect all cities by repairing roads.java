@@ -14,7 +14,7 @@ public class MinCostOfRoad {
         for(int i = 0;i <= n;i++){
             parent[i] = i;
         }
-        ArrayList<ArrayList<Integer>> mstArray = new ArrayList<>();
+        ArrayList<ArrayList<Integer>> mst = new ArrayList<>();
         int minCost = 0;
         int i = 0;
         int countEdges = 0;
@@ -28,7 +28,7 @@ public class MinCostOfRoad {
             int sourceParent = findParent(source, parent);
             int destParent = findParent(dest, parent);
             if(sourceParent != destParent){
-                mstArray.add(edge);
+                mst.add(edge);
                 countEdges++;
                 minCost += weight;
                 parent[sourceParent] = destParent;
