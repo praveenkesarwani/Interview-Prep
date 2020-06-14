@@ -10,7 +10,7 @@ public class Solution {
         }
         return minVertex;
     }
-    //dijkstra
+    //dijkstra 
     public static void dijkstra(int [][]edges, int V){
         boolean []visited = new boolean[V];
         int []distance = new int[V];
