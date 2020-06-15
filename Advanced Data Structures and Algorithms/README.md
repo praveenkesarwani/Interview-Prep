@@ -19,7 +19,7 @@ Hence, a spanning tree does not have cycles and it cannot be disconnected.
 keep a subgraph S of G, initially Empty<br>
 for each edge e in sorted order<br>
 &nbsp&nbsp&nbsp if adding e in S doesn't form a cycle<br>
-add e to S<br>
-else ignore e<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp add e to S<br>
+&nbsp&nbsp&nbsp else ignore e<br>
 return S
 </p>
