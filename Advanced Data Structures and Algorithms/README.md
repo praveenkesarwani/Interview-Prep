@@ -26,5 +26,5 @@ return S
 <p><b>Union-Find Algorithm</b> can be used to check whether an undirected graph contains cycle or not.</p>
 </p>
 
-<a href = "https://www.youtube.com/watch?v=ZtZaR7EcI5Y">Prim's Algorithm</a>
-<a href = "https://www.youtube.com/watch?v=smHnz2RHJBY">Dijkstra Algorithm</a>
+<h2>Prim's Algoritjms</h2><a href = "https://www.youtube.com/watch?v=ZtZaR7EcI5Y">click here</a>
+<h2>Dijkstra Algorithm</h2><a href = "https://www.youtube.com/watch?v=smHnz2RHJBY">click here</a>
