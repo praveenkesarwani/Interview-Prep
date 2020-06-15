@@ -13,3 +13,13 @@ Hence, a spanning tree does not have cycles and it cannot be disconnected.
     <li>Weighted + Spanning Tree</li>
 </ul>
 </p>
+<h1>Kruskal's Algorithm</h1>
+<h3>Kruskal's Algorithm:</h3>
+<p>sort the edges of G in increasing order based on weight<br>
+keep a subgraph S of G, initially Empty<br>
+for each edge e in sorted order<br>
+&nbsp&nbsp&nbsp if adding e in S doesn't form a cycle<br>
+add e to S<br>
+else ignore e<br>
+return S
+</p>
