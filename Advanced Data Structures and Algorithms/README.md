@@ -22,4 +22,8 @@ for each edge e in sorted order<br>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp add e to S<br>
 &nbsp&nbsp&nbsp else ignore e<br>
 return S
+<br>
+<p><b>Union-Find Algorithm</b> can be used to check whether an undirected graph contains cycle or not.</p>
 </p>
+
+<h1>Prim's Algorithm</h1>
