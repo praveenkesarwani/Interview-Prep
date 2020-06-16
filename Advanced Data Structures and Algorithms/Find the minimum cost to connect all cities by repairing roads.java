@@ -14,6 +14,7 @@ public class MinCostOfRoad {
         for(int i = 0;i <= n;i++){
             parent[i] = i;
         }
+
         ArrayList<ArrayList<Integer>> mst = new ArrayList<>();
         int minCost = 0;
         int i = 0;
@@ -37,7 +38,7 @@ public class MinCostOfRoad {
         }
         return minCost;
     }
-    //union-find algorithm to detect cycle
+    //union-find algorithm to detect cycle 
     public static int findParent(int child, int[]parent){
         if(parent[child] == child){
             return child;
