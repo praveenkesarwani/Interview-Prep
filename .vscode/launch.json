@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Interview-Prep_2b710849"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Higher",
+            "request": "launch",
+            "mainClass": "Higher",
+            "projectName": "Interview-Prep_2b710849"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BuildOrder<Interview-Prep_2b710849>",
+            "request": "launch",
+            "mainClass": "BuildOrder",
+            "projectName": "Interview-Prep_2b710849"
+        }
+    ]
+}
